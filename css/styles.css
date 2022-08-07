@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-bold";
+}
+p {
+  color: #8f8f8f;
+}
+
+
+/* HEADINGS */
+.big-heading {
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINERS */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* SECTIONS*/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION*/
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* Title Image */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+  /*z-index: 1;*/
+}
+
+.features-icon {
+  font-size: 300%;
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.festures-app {
+  padding: 0 50px;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+  background-color: #ef8172;
+  position: relative;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION*/
+
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CALL TO ACTION  */
+
+
+/* call to action por .cta-heading */
+/*.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+ en html le cambiamos a big heading ya que ceuntan con los mismo valores
+}*/
+/* FOOTER SECTION */
+
+.rights {
+  color: gray;
+  padding-top: 10px;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1046px) {
+  #title {
+    text-align: center;
+  }
+.title-image {
+  position: static;
+  width: 60%;
+  transform: rotate(0);
+}
+}
